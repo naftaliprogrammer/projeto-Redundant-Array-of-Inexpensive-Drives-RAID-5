@@ -6,7 +6,7 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 
 **Quantidade de Discos Necessários:**
 
-* **3 Discos Dinâmicos**: O RAID 5 requer, no mínimo, **3 discos**. É fundamental que os discos utilizados sejam **dinâmicos** e não **básicos**, pois apenas discos dinâmicos podem ser configurados para um array RAID no Windows Server. Discos básicos não oferecem suporte à criação de volumes RAID.
+* O RAID 5 requer, no mínimo, **3 discos**. É fundamental que os discos utilizados sejam **dinâmicos** e não **básicos**, pois apenas discos dinâmicos podem ser configurados para um array RAID no Windows Server. Discos básicos não oferecem suporte à criação de volumes RAID.
 
 **Cálculo do Armazenamento Total:**
 
