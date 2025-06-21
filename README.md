@@ -12,7 +12,7 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 
 * **Capacidade Total do RAID 5**: No RAID 5, a capacidade total de armazenamento é calculada pela **soma do tamanho de todos os discos** menos o tamanho do maior disco, que será utilizado para paridade.
 
-  * **Fórmula**: $Capacidade Total = (N - 1) \times Tamanho do Disco$, onde **N** é o número total de discos e **Tamanho do Disco** é o tamanho de cada disco.
+  * **Fórmula**: Capacidade Total = $(N - 1) \times$ Tamanho do Disco, onde **N** é o número total de discos e **Tamanho do Disco** é o tamanho de cada disco.
   * Exemplo: Se você utilizar 3 discos de 60 GB, o cálculo seria $(3 - 1) \times 60 GB$ = 120 GB de capacidade utilizável no array RAID 5.
 
 **Dicas Importantes:**
