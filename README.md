@@ -15,10 +15,10 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
   * **Fórmula**: Capacidade Total = $(N - 1) \times$ Tamanho do Disco, onde **N** é o número total de discos e **Tamanho do Disco** é o tamanho de cada disco.
   * Exemplo: Se você utilizar 3 discos de 60 GB, o cálculo seria $(3 - 1) \times 60 GB$ = 120 GB de capacidade utilizável no array RAID 5.
 
-**Dicas Importantes:**
+**Dica Importantes:**
 
 * Sempre, **certifique-se** de que os discos sejam configurados como **dinâmicos**. Discos básicos não suportam a criação de arrays RAID no Windows Server.
-* **Boas práticas de segurança**: Ao formatar o volume do RAID 5, sempre opte pelo **NTFS**. O NTFS é o sistema de arquivos mais adequado para servidores, pois oferece suporte a recursos como segurança avançada, compressão de arquivos, auditoria e recuperação em caso de falhas. Além disso, o NTFS é mais eficiente no gerenciamento de grandes volumes de dados, como os encontrados em configurações RAID 5.
+**Boas práticas de segurança**: Ao formatar o volume do RAID 5, sempre opte pelo **NTFS**. O NTFS é o sistema de arquivos mais adequado para servidores, pois oferece suporte a recursos como segurança avançada, compressão de arquivos, auditoria e recuperação em caso de falhas. Além disso, o NTFS é mais eficiente no gerenciamento de grandes volumes de dados, como os encontrados em configurações RAID 5.
 
 **Menções Finais:**
 
