@@ -27,6 +27,7 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 
 ---
 
+![IMG-20250623-WA0000](https://github.com/user-attachments/assets/4508aa88-7dad-4b93-b9d5-188780e68202)
 
 
 
