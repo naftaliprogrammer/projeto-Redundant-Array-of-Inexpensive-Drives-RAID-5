@@ -42,3 +42,10 @@ https://github.com/user-attachments/assets/d611de9e-7709-4e42-92a8-bcd4dfb2e234
 
 https://github.com/user-attachments/assets/af62f13c-327b-445f-b9da-5bcc1d0533d4
 
+
+## PRATICA - PARTE III
+
+
+
+https://github.com/user-attachments/assets/51b75f0f-8bdc-443f-97bc-a70c149bd8a1
+
