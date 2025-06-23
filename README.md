@@ -1,5 +1,5 @@
 # projeto-Redundant-Array-of-Inexpensive-Drives-RAID-5
-Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskPart! 🚀 Aprenda a criar um array com 3 discos. Assista ao vídeo completo e aprende como formatar, converter discos em dinâmicos,e atruibuir uma letra ao volume usando o diskpart pelo powershell.
+Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskPart! 🚀 Aprenda a criar um array com 3 discos. Assista os vídeos e aprende como listar discos, converter discos em dinâmicos, formatar e atruibuir uma letra ao volume usando o diskpart pelo powershell.
 ---
 
 ### **Configuração do RAID 5 com DiskPart no Windows Server**
@@ -17,7 +17,7 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 
 **Dicas Importantes:**
 
-* **Discos Dinâmicos**: Certifique-se de que os discos sejam configurados como **dinâmicos**. Discos básicos não suportam a criação de arrays RAID no Windows Server.
+* Sempre, **certifique-se** de que os discos sejam configurados como **dinâmicos**. Discos básicos não suportam a criação de arrays RAID no Windows Server.
 * **Boas práticas de segurança**: Ao formatar o volume do RAID 5, sempre opte pelo **NTFS**. O NTFS é o sistema de arquivos mais adequado para servidores, pois oferece suporte a recursos como segurança avançada, compressão de arquivos, auditoria e recuperação em caso de falhas. Além disso, o NTFS é mais eficiente no gerenciamento de grandes volumes de dados, como os encontrados em configurações RAID 5.
 
 **Menções Finais:**
