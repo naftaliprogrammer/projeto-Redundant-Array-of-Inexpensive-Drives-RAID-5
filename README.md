@@ -1,4 +1,4 @@
-# projeto-Redundant-Array-of-Inexpensive-Drives-RAID-5
+# Projeto-Redundant-Array-of-Inexpensive-Drives-RAID-5
 Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskPart! 🚀 Aprenda a criar um array com 3 discos. Assista os vídeos e aprende como listar discos, converter discos básicos em dinâmicos, formatar e atruibuir uma letra ao volume usando o diskpart pelo powershell.
 ---
 
