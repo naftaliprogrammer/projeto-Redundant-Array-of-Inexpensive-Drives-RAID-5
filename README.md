@@ -18,12 +18,12 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 **Dicas Importantes:**
 
 * **Discos Dinâmicos**: Certifique-se de que os discos sejam configurados como **dinâmicos**. Discos básicos não suportam a criação de arrays RAID no Windows Server.
-* **Sistema de Arquivos NTFS**: Ao formatar o volume do RAID 5, sempre opte pelo **NTFS**. O NTFS é o sistema de arquivos mais adequado para servidores, pois oferece suporte a recursos como segurança avançada, compressão de arquivos, auditoria e recuperação em caso de falhas. Além disso, o NTFS é mais eficiente no gerenciamento de grandes volumes de dados, como os encontrados em configurações RAID 5.
+* **Boas práticas de segurança**: Ao formatar o volume do RAID 5, sempre opte pelo **NTFS**. O NTFS é o sistema de arquivos mais adequado para servidores, pois oferece suporte a recursos como segurança avançada, compressão de arquivos, auditoria e recuperação em caso de falhas. Além disso, o NTFS é mais eficiente no gerenciamento de grandes volumes de dados, como os encontrados em configurações RAID 5.
 
 **Menções Finais:**
 
 * O RAID 5 oferece **alta disponibilidade** e **tolerância a falhas**, pois distribui a paridade entre os discos, permitindo a reconstrução do array caso um disco falhe.
-* Observação: apesar de o RAID 5 proteger contra falhas de um disco, o desempenho de gravação pode ser ligeiramente inferior ao RAID 0, devido ao cálculo e gravação da paridade.
+* Observação: Apesar de o RAID 5 proteger contra falhas de um disco, o desempenho de gravação pode ser ligeiramente inferior ao RAID 0, devido ao cálculo e gravação da paridade.
 
 ---
 
@@ -33,6 +33,10 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 
 
 ## PRÁTICA - PARTE I 
+* Nessa primeira parte do vídeo, eu listei os discos, em seguida, selecionei cada discos e fiz a conversão para o tipo dinâmico.
+
+* Depois, eu listei os discos já convertidos para o tipo dinâmico e criei o volume RAID.
+
 
 https://github.com/user-attachments/assets/d611de9e-7709-4e42-92a8-bcd4dfb2e234
 
