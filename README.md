@@ -2,7 +2,7 @@
 Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskPart! 🚀 Aprenda a criar um array com 3 discos. Assista os vídeos e aprende como listar discos, converter discos básicos em dinâmicos, formatar e atruibuir uma letra ao volume usando o diskpart pelo powershell.
 ---
 
-### **Configuração do RAID 5 com DiskPart no Windows Server**
+### **Configurando o RAID 5 no Servidor Windows utilizando a ferramenta DiskPart.**
 
 **Quantidade de Discos Necessários:**
 
