@@ -23,7 +23,7 @@ Tutorial prático de configuração de RAID 5 no Windows Server utilizando DiskP
 **Menções Finais:**
 
 * O RAID 5 oferece **alta disponibilidade** e **tolerância a falhas**, pois distribui a paridade entre os discos, permitindo a reconstrução do array caso um disco falhe.
-* Lembre-se de que, apesar de o RAID 5 proteger contra falhas de um disco, o desempenho de gravação pode ser ligeiramente inferior ao RAID 0, devido ao cálculo e gravação da paridade.
+* Observação: apesar de o RAID 5 proteger contra falhas de um disco, o desempenho de gravação pode ser ligeiramente inferior ao RAID 0, devido ao cálculo e gravação da paridade.
 
 ---
 
